@@ -60,10 +60,3 @@ Command-line application development
 License
 
 This project is for academic and educational purposes.
-
-To add it on GitHub directly:
-- open your repo
-- click **Add a README**
-- paste this text
-- commit changes
-
