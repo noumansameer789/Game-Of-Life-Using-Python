@@ -1,0 +1,9 @@
+pytest
+sphinx
+
+
+
+
+pytest → for automated testing
+
+sphinx → for documentation generation
