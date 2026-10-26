@@ -1,62 +1,19 @@
-# Game Of Life Using Python
+# Python board-game project archive
 
-## Overview
-This project is a command-line implementation of a simplified **Game of Life** board game built in **Python** using **object-oriented programming** principles. It supports **2–4 human players**, uses a modular class-based structure, includes input validation, unit testing with **pytest**, and documentation with **Sphinx**.
+This repository preserves the original object-oriented board-game project. For the compact portfolio reconstruction, see [python-board-game-engine](https://github.com/noumansameer789/python-board-game-engine).
 
-The game ends when all players retire, and the winner is the player with the highest cash balance.
+## Source location
 
-## Features
-- Command-line based gameplay
-- Supports 2 to 4 players
-- Object-oriented and modular design
-- Input validation for user interaction
-- Unit testing using pytest
-- Documentation generated with Sphinx
+The original source and tests are in `GameofLife_Using_python/GameofLife_Using_Python/code`. The historical folder structure is retained to preserve the submission layout; it is not a second independently developed project.
 
-## Technologies Used
-- Python
-- Pytest
-- Sphinx
+```bash
+git clone https://github.com/noumansameer789/Game-Of-Life-Using-Python.git
+cd Game-Of-Life-Using-Python/GameofLife_Using_python/GameofLife_Using_Python/code
+python -m pytest
+```
 
-## Project Structure
-```text
-Game-Of-Life-Using-Python/
-│── src/              # Main source code
-│── tests/            # Unit tests
-│── docs/             # Sphinx documentation
-│── README.md         # Project documentation
+The source directory contains the game, board, player, tile and turn-handler modules and their tests. Generated Python caches are excluded. Documentation source files and historical generated output are under `doc`.
 
-How to Run
+## Publication status
 
-Clone the repository:
-
-git clone https://github.com/your-username/Game-Of-Life-Using-Python.git
-
-Move into the project folder:
-
-cd Game-Of-Life-Using-Python
-
-Run the program:
-
-python main.py
-Running Tests
-To run the unit tests:
-
-pytest
-Documentation
-
-Sphinx is used for project documentation. To build the docs, run:
-
-sphinx-build -b html docs docs/_build
-Learning Outcomes
-
-This project demonstrates:
-
-Object-oriented programming in Python
-Modular software design
-Testing with pytest
-Documentation with Sphinx
-Command-line application development
-License
-
-This project is for academic and educational purposes.
+This appears to preserve assessed work. Module-specific publication permission has not been established in this review. It should not be treated as permission to reuse or submit this code for assessment. The owner should confirm the module’s publication rules before promoting the archive publicly.
